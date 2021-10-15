@@ -18,7 +18,7 @@ function Header() {
                 <Nav className="me-auto">
                     <LinkContainer to="/"><Nav.Link>Room</Nav.Link></LinkContainer>
                     <LinkContainer to="/collections"><Nav.Link>Collections</Nav.Link></LinkContainer>
-                    <Nav.Link disabled={true}>User1234</Nav.Link>
+                    <Nav.Link disabled={true} style={{ fontWeight: "bold", color: "red" }}>User1234</Nav.Link>
                 </Nav>
             </div>
         </Container>
